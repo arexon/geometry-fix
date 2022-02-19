@@ -1,0 +1,11 @@
+{
+	"plugins": [
+		[
+			"rewriteForPackaging",
+			{
+				"packName": "geometry-fix",
+				"format": "mcaddon"
+			}
+		]
+	]
+}

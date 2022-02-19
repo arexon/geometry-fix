@@ -1,0 +1,2 @@
+pack.name=Geometry Fix
+pack.description=Fixes block geometries larger than 16x16x16 in post v1.18.10

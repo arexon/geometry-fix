@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            18,
+            0
+        ],
+        "uuid": "008f2e56-7e74-48b4-8f6b-457208e24e63",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "97c572e3-70be-4eed-8e36-eab772bf6f2c",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Arexon"
+        ],
+        "generated_with": {
+            "bridge": [
+                "2.2.4"
+            ],
+            "dash": [
+                "0.7.1"
+            ]
+        }
+    }
+}

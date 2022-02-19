@@ -1,0 +1,33 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Geometry Fix",
+	"namespace": "arexon",
+	"authors": [
+		"Arexon"
+	],
+	"targetVersion": "1.18.10",
+	"description": "Fixes block geometries larger than 16x16x16 in post v1.18.10",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": false,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"theWildUpdate": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			[
+				"simpleRewrite",
+				{
+					"packName": "geometry-fix"
+				}
+			]
+		]
+	}
+}
